@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: sans-serif;
+    background-image: url(./fundo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+}
+
+/* topo */
+
+.topo{
+    display:flex;
+    align-items: center;
+    gap: 0;
+    padding: 5px;
+    background:#111;
+}
+
+.topo h1{
+    font-size: 1.5rem;
+    color: #d6b86a;
+}
+
+/*produto*/
+
+.produto img{
+    width: 100%;
+    display: block;
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+.info{
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.info h2{
+    color: #d6b86a;
+    margin-bottom: 5px;
+}
+
+.info p{
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.preco{
+    display: block;
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #d6b86a;
+}
+
+/*adicionais*/
+
+.adicionais{
+    padding: 20px;
+    margin-top: -5px;
+    border-radius: 12px;
+    border: 1px solid rgba(214, 184, 106, 0.2);
+}
+
+.adicionais h3{
+    font-size: 17px;
+    color: #d6b86a;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.extra-item{
+    background: rgba(255,255,255,0.08);
+    border: 1px solid #d6b76a55;
+    border-radius: 14px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 5px;
+    border-bottom: 1px solid #222;
+    margin-bottom: 6px;
+}
+
+input{
+    appearance: none;
+
+    width: 20px;
+    height: 20px;
+
+    background: transparent;
+    border: 1px solid #d6b76a55;
+
+    border-radius: 4px;
+}
+
+.opcao{
+    display: flex;
+    gap: 10px;
+}
+
+/*rodape*/
+
+.rodape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+.btn-carrinho{
+    width:100%;
+    height: 55px;
+    border: 1px solid rgba(214, 184, 106, 0.3);
+    border-radius: 12px;
+    background:  transparent;
+    color: #d6b86a;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;  
+}
+
+.obs{
+    padding: 20px;
+    color: #d6b86a;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.obs p{
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.digitar{
+    padding: 30px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 12px;
+    border: 1px solid rgba(214, 183, 106, 0.159);
+    color: #ccc;
+    font-size: 12px;
+    margin: 8px;
+    margin-top: -8px;
+}
+
+.topo img{
+    width: 120px;
+    
+}
