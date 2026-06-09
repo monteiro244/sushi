@@ -686,6 +686,8 @@ nav::-webkit-scrollbar {
     box-sizing: border-box;
 }
 
+
+html,
 body {
     min-height: 100vh;
     background-image: url(fundo.png);
