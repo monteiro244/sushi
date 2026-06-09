@@ -4,21 +4,18 @@
     box-sizing: border-box;
 }
 
-html {
-    min-height: 100%;
-}
-
+html,
 body {
+    margin: 0;
     font-family: sans-serif;
     background-image: url(./fundo.png);
     color: white;
     overflow-x: hidden;
-    
     min-height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 
