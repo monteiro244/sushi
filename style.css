@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
     margin: 0;
     font-family: sans-serif;
     background-image: url(./fundo.png);
@@ -31,7 +30,7 @@ body {
 
 .container {
     position: relative;
-    z-index: 2;
+    z-  index: 2;
     width: 100%;
     max-width: 500px;
     display: flex;
