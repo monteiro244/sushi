@@ -129,11 +129,11 @@ button:hover {
 .cardapio {
     width: 100%;
     padding: 8px 3% 120px;
-
     background-size: cover;
     background-position: center;
     position: relative;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .conteiner::before {
@@ -704,7 +704,6 @@ body {
     max-width: 430px;
     margin: auto;
     padding: 20px;
-
 }
 
 
