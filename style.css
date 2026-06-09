@@ -13,7 +13,7 @@ body {
     background-image: url(./fundo.png);
     color: white;
     overflow-x: hidden;
-    background-attachment: fixed;
+    
     min-height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,11 +28,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-
     background-size: cover;
-
     position: relative;
-
 }
 
 .container {
@@ -133,7 +130,6 @@ button:hover {
     background-position: center;
     position: relative;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .conteiner::before {
