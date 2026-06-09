@@ -129,7 +129,7 @@ button:hover {
 .cardapio {
     width: 100%;
     padding: 8px 3% 120px;
-    
+
     background-size: cover;
     background-position: center;
     position: relative;
@@ -630,7 +630,7 @@ nav::-webkit-scrollbar {
 
     .extras-section {
         margin-top: 15px;
-        
+
     }
 
     .extra-item {
@@ -675,4 +675,295 @@ nav::-webkit-scrollbar {
         color: #cfcfcf;
         margin-top: 5px;
     }
+
+}
+
+/*mobile first*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(fundo.png);
+    background-size: cover;
+    background-position: center;
+
+    font-family: sans-serif;
+}
+
+/*container*/
+
+.carrinho {
+    width: 100%;
+    max-width: 430px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+
+/*header*/
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.voltar,
+.limpar {
+    background: none;
+    border: none;
+    color: #c89b3c;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.topo h1 {
+    color: #c89b3c;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/*logo*/
+
+.logo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.logo-container img {
+    width: 100px;
+    z-index: 2;
+    position: relative;
+    background: transparent;
+    padding: 0;
+}
+
+/*linha*/
+
+.linha {
+    padding: 1px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right,
+            transparent,
+            #c89b3c,
+            transparent);
+    transform: translateY(-50%);
+    margin-bottom: 25px;
+}
+
+/*produtos*/
+
+.lista-produtos{
+    margin-top: -1px;
+}
+
+.item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 15px;
+
+    margin-bottom: 5px;
+
+    border-radius: 18px;
+
+    background: transparent;
+
+    border: 1px solid #c89c3c2e;
+
+    
+}
+
+.item img {
+
+    width: 90px;
+
+    height: 90px;
+
+    border-radius: 12px;
+
+    object-fit: cover;
+}
+
+/*informações*/
+
+.info {
+    flex: 1;
+}
+
+.info h2 {
+    color: #c89b3c;
+
+    font-size: 1.2rem;
+
+    margin-bottom: 5px;
+}
+
+.info p {
+    color: #cfcfcf;
+
+    font-size: .85rem;
+
+    margin-bottom: 10px;
+}
+
+.quantidade {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+.quantidade button {
+
+    width: 30px;
+
+    height: 30px;
+
+    border-radius: 8px;
+
+    border: 1px solid rgba(214, 184, 106, .4);
+
+    background: none;
+
+    color: #c89b3c;
+}
+
+.preco {
+
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 1.1rem;
+}
+
+/*resumo*/
+
+.resumo {
+
+    margin-top: 20px;
+
+    padding: 20px;
+
+    border-radius: 18px;
+
+    background: rgba(0, 0, 0, .45);
+
+    border: 1px solid #c89c3c6a;
+
+    backdrop-filter: blur(8px);
+}
+
+/*linha PREÇO*/
+
+.linha-preco {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 12px;
+
+    color: #d8d8d8;
+
+    font-size: .95rem;
+}
+
+.divisor {
+
+    height: 1px;
+
+    margin: 15px 0;
+
+    background: linear-gradient(to right,
+            transparent,
+            #c89b3c,
+            transparent);
+}
+
+.total {
+    color: #c89b3c;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.total span:first-child{
+
+    font-size: 1.4rem;
+
+    font-weight: 600;
+}
+
+/*botões*/
+
+.btn-finalizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background: linear-gradient(
+        to left,
+        #a50e12,
+        #c9171d90,
+        #e3262f
+    );
+
+    box-shadow: 0 8px 20px rgba(201, 23, 29, 0.35);
+    padding: 17px;
+    margin-top: 12px;
+    border-radius: 16px;  
+}
+
+.btn-finalizar h1{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-comprando{
+    color: #c89b3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-radius: 16px;
+    border: 1px solid #c89c3c9d;
+    padding: 17px;
+    margin-top: 9px;
+}
+
+/*link carrinho*/
+
+.cart a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.voltar a{
+    text-decoration: none;
+    color: inherit;
 }
