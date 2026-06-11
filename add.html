@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>carrinho</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back" />
 </head>
 
 <body>
     <header class="topo">
-        <img src="logo.png" alt="">
-
-        <h1>Sushi da Barriguda</h1>
+        <a href="cardapio.html">
+            <span class="material-symbols-outlined">
+                arrow_back
+            </span>
+        </a>
     </header>
 
     <section class="produto">
@@ -32,12 +36,15 @@
     <div class="divider"></div>
 
     <section class="adicionais">
-        <h3>ADICIONAIS</h3>
+        <div class="text">
+            <h3>ADICIONAIS</h3>
+            <p>Selecione os items que deseja adicionar ao pedido</p>
+        </div>
 
         <div class="extra-item">
             <label class="opcao">
                 <input type="checkbox">
-                molho tarê
+                <h2>Gengibre</h2>
             </label>
 
             <span>R$ 2,00</span>
@@ -46,7 +53,7 @@
         <div class="extra-item">
             <label class="opcao">
                 <input type="checkbox">
-                cream cheese
+                <h2>Wasabi</h2>
             </label>
 
             <span>R$ 1,50</span>
@@ -70,14 +77,11 @@
     <div class="divider"></div>
 
     <div class="rodape">
-        <div class="adicionar">
-            <button>-</button>
-            <span>2</span>
-            <button>+</button>
-        </div>
         <button class="btn-carrinho">
-            adicionar ao pedido
+            <h2>ADICIONAR AO CARRINHO</h2>
+            <p> R$ 34,90</p>
         </button>
+
 
     </div>
 
