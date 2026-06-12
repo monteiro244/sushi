@@ -851,22 +851,6 @@ body {
     font-size: 1.1rem;
 }
 
-/*resumo*/
-
-.resumo {
-
-    margin-top: 20px;
-
-    padding: 20px;
-
-    border-radius: 18px;
-
-    background: rgba(0, 0, 0, .45);
-
-    border: 1px solid #c89c3c6a;
-
-    backdrop-filter: blur(8px);
-}
 
 /*linha PREÇO*/
 
@@ -934,6 +918,11 @@ body {
 .btn-finalizar h1 {
     font-size: 16px;
     font-weight: bold;
+}
+
+.btn-finalizar a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .btn-comprando {
@@ -1023,7 +1012,7 @@ body {
 
 .top h2 {
     margin-top: -9px;
-    color: #d6b86a;
+    color: #c89b3c;
     text-align: center;
     font-weight: 800;
 }
@@ -1054,16 +1043,16 @@ body {
 }
 
 .dourada::before {
-    background: linear-gradient(to right, transparent, #d6b86a);
+    background: linear-gradient(to right, transparent, #c89b3c);
 }
 
 .dourada::after {
-    background: linear-gradient(to left, transparent, #d6b86a);
+    background: linear-gradient(to left, transparent, #c89b3c);
 }
 
 
 
-.endereço {
+.endereco {
     display: flex;
     border-radius: 12px;
     border: 1px solid #bdbdbd28;
@@ -1076,24 +1065,24 @@ body {
     padding: 9px;
 }
 
-.endereço h2 {
-
+.endereco h2 {
     position: relative;
+    margin-right: 500px;
     margin-left: 29px;
-    color: #d6b86a;
+    color: #c89b3c;
     font-size: 15px;
 }
 
-.endereço p {
+.endereco p {
     margin-top: 2%;
     font-size: 11px;
     margin-left: 29px;
     color: rgba(255, 255, 255, 0.622);
 }
 
-.endereço a {
+.endereco a {
     text-decoration: none;
-    color: #d6b86a;
+    color: #c89b3c;
 }
 
 .material-symbols-outlined {
@@ -1113,12 +1102,12 @@ body {
 
     border-radius: 12px;
 
-    margin-top: 7px;
+    margin-top: 9px;
 
 }
 
 .tipo-entrega h1 {
-    color: #d6b86a;
+    color: #c89b3c;
     font-size: 15px;
     margin-bottom: -5px;
     margin-top: 15px;
@@ -1156,7 +1145,7 @@ body {
     position: relative;
     right: 19%;
     margin: 0;
-    color: #d6b86a;
+    color: #c89b3c;
     font-size: 12px;
     margin-bottom: 7px;
 }
@@ -1192,7 +1181,7 @@ body {
     width: 10px;
     height: 10px;
 
-    border: 2px solid #d4a04b;
+    border: 2px solid #c89b3c;
     border-radius: 50%;
 }
 
@@ -1208,19 +1197,19 @@ body {
 
     padding: 18px;
     border-radius: 12px;
-    margin-top: 8px;
+    margin-top: 9px;
 }
 
-.forma-pagamento h1{
+.forma-pagamento h1 {
     position: relative;
     top: 0px;
     font-size: 15px;
-    color: #d6b86a;
+    color: #c89b3c;
     margin-left: 8%;
 
 }
 
-.forma-pagamento span{
+.forma-pagamento span {
     font-size: 10px;
     color: #bdbdbd;
     line-height: 1.9;
@@ -1254,7 +1243,7 @@ body {
 
 .pagamento h2 {
     text-align: center;
-    color: #d6b86a;
+    color: #c89b3c;
     font-size: 13px;
     margin: 0;
 }
@@ -1268,12 +1257,12 @@ body {
 
 /*icone*/
 
-.material-symbols-outlined.icone-pagamento{
+.material-symbols-outlined.icone-pagamento {
     display: flex;
     justify-content: center;
     width: 40px;
     height: 40px;
-    font-size: 20px ;
+    font-size: 20px;
     color: rgba(255, 0, 0, 0.397);
     text-align: center;
     align-items: center;
@@ -1289,4 +1278,90 @@ body {
 
     border: 2px solid #d4a04b;
     border-radius: 50%;
+}
+
+/*resumo*/
+
+.resumo {
+
+    margin-top: 9px;
+
+    padding: 20px;
+
+    background: linear-gradient(135deg,
+            #131313 0%,
+            #1717177c 50%,
+            #121315 100%);
+
+    border: 1px solid rgba(212, 160, 23, 0.25);
+
+    border-radius: 10px;
+
+}
+
+/*tempo de entrega*/
+
+.tempo-entrega {
+    display: flex;
+    background: linear-gradient(135deg,
+            #131313 0%,
+            #1717177c 50%,
+            #121315 100%);
+
+    border: 1px solid rgba(212, 160, 23, 0.25);
+
+    border-radius: 10px;
+
+    padding: 12px;
+    gap: 25px;
+    margin-top: 9px;
+}
+
+.tempo-entrega h2 {
+    position: relative;
+    margin-right: 160px;
+}
+
+.paragrafos {
+    position: absolute;
+    display: flex;
+    padding: 18px;
+    gap: 7px;
+    margin-left: 32px;
+}
+
+.paragrafos .um {
+    color: white;
+    font-size: 10px;
+}
+
+/*icone tempo*/
+
+.icone-tempo {
+
+    font-size: 32px;
+    color: #d4a04b;
+}
+
+/*botão*/
+
+.botao{
+    text-align: center;
+    background-color: #8b0000;
+    padding: 17px;
+    border-radius: 11px;
+    margin-top: 17px;
+}
+
+.botao button{
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.rodap p{
+    color: #c89b3c;
+    margin-top: 20px;
 }
