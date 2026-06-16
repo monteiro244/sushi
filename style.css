@@ -470,9 +470,8 @@ nav::-webkit-scrollbar {
 
     .card {
         display: flex;
-        gap: 10px;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 20px;
         flex-direction: row;
         background: rgba(255, 255, 255, 0.05);
         border: 1px solid #d6b76a41;
@@ -525,7 +524,7 @@ nav::-webkit-scrollbar {
 
     .card h3 {
         font-size: 18px;
-        
+
     }
 
     .card p {
@@ -882,8 +881,9 @@ body {
 }
 
 .total {
+    font-size: 18px;
     color: #c89b3c;
-
+    font-weight: bold;
     display: flex;
 
     justify-content: space-between;
@@ -900,7 +900,7 @@ body {
 
 /*botões*/
 
-.botoes{
+.botoes {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -929,7 +929,7 @@ body {
     font-weight: bold;
 }
 
-.btn-finalizar a{
+.btn-finalizar a {
     text-decoration: none;
     color: inherit;
 }
@@ -1179,7 +1179,7 @@ body {
     color: #bdbdbd;
     border-radius: 50%;
 
-    
+
     font-size: 30px;
 }
 
@@ -1300,27 +1300,27 @@ body {
             #1717177c 50%,
             #121315 100%);
 
-    
+
 
     border-radius: 10px;
 
 }
 
 .resumos {
-   
+
     margin-top: 9px;
     background: linear-gradient(135deg,
             #131313 0%,
             #1717177c 50%,
             #121315 100%);
 
-    
+
 
     border-radius: 10px;
 
 }
 
-.total span{
+.total span {
     padding: 10px;
 }
 
@@ -1370,7 +1370,7 @@ body {
 
 /*botão*/
 
-.botao{
+.botao {
     text-align: center;
     background-color: #8b0000;
     padding: 17px;
@@ -1378,7 +1378,7 @@ body {
     margin-top: 17px;
 }
 
-.botao button{
+.botao button {
     font-size: 13px;
     background: transparent;
     border: none;
@@ -1386,10 +1386,7 @@ body {
     font-weight: 700;
 }
 
-.rodap p{
+.rodap p {
     color: #c89b3c;
     margin-top: 20px;
 }
-
-
-
