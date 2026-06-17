@@ -177,7 +177,7 @@ input {
 
 .rodape {
     display: flex;
-    
+    position: fixed;
     bottom: 5px;
     left: 0;
     width: 100%;
