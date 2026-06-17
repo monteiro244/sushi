@@ -10,7 +10,7 @@ html{
 
 html,
 body {
-
+    background: #000;
     margin: 0;
     font-family: sans-serif;
     background-image: url(./fundo.png);
