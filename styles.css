@@ -4,13 +4,8 @@
     box-sizing: border-box;
 }
 
-html{
-    background: #000;
-}
-
 html,
 body {
-    background: #000;
     margin: 0;
     font-family: sans-serif;
     background-image: url(./fundo.png);
@@ -182,7 +177,7 @@ input {
 
 .rodape {
     display: flex;
-    position: fixed;
+    
     bottom: 5px;
     left: 0;
     width: 100%;
