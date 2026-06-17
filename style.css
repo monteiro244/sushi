@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     font-family: sans-serif;
-     background: #000 url(./fundo.png) center center repeat;
+    background: #000 url(./fundo.png) center center repeat;
     color: white;
     overflow-x: hidden;
     background-repeat: no-repeat;
