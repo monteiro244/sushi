@@ -761,6 +761,7 @@ body {
 
 .lista-produtos {
     margin-top: -1px;
+    margin-bottom: 87%;
 }
 
 .item {
@@ -780,7 +781,6 @@ body {
     background: transparent;
 
     border: 1px solid #c89c3c2e;
-
 
 }
 
