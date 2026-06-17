@@ -5,13 +5,11 @@
 }
 
 html, body {
-    padding: 0;
     margin: 0;
     font-family: sans-serif;
     background-image: url(./fundo.png);
     color: white;
     overflow-x: hidden;
-    min-height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
