@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+html{
+    background: #000;
+}
+
 html,
 body {
+
     margin: 0;
     font-family: sans-serif;
     background-image: url(./fundo.png);
