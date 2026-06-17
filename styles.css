@@ -11,11 +11,10 @@ body {
     background-image: url(./fundo.png);
     color: white;
     overflow-x: hidden;
-    min-height: 100%;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 100%;
 }
 
 /* topo */
